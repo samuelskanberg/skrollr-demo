@@ -1,9 +1,9 @@
 # Skrollr demo
 
-Just a couple of very simple demos for using [https://github.com/Prinzhorn/skrollr](Skrollr).
+Just a couple of very simple demos for using [Skrollr](https://github.com/Prinzhorn/skrollr).
 
-If you want to see more (but slightly more complicated) check out [http://prinzhorn.github.io/skrollr/](Skrollr demo page).
+If you want to see more (but slightly more complicated) check out [Skrollr demo page](http://prinzhorn.github.io/skrollr/).
 
 # Live demo
 
-Go to the github pages for this repo: [http://samuelskanberg.github.io/skrollr-demo/](Skrollr demo).
+Go to the github pages for this repo: [Skrollr demo](http://samuelskanberg.github.io/skrollr-demo/).
