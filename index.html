@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Skrollr demo</title>
+        <meta name="description" content="Skrollr demo">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/main.css">
+        <script src="skrollr.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+
+        <h1>Skrollr demo</h1>
+        
+        <p>
+            This is just a simple demo of <a href="https://github.com/Prinzhorn/skrollr">Skrollr</a>
+        </p>
+
+
+        <h2>List items that change background colors</h2>
+
+        <h3>Start: bottom of screen, end: after 100 pixels</h3>
+
+        <p>
+            The list items will go from blue rgb(0,0,255) to red rgb(255,0,0). As you can see in the source, they will start their transformation from being blue at "data-bottom-bottom" which is when the element's bottom is at the bottom of the screen. It will be completed (being red) when at "data--100-bottom-bottom" which is when the element's bottom is 100 pixels from the bottom of the screen (viewport).
+        </p>
+
+        <ul>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data--100-bottom-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+        </ul>
+
+        <h3>Start: bottom of screen, end: center of screen</h3>
+
+        <p>
+            The list items will go from blue rgb(0,0,255) to red rgb(255,0,0). As you can see in the source, they will start their transformation from being blue at "data-bottom-bottom" which is when the element's bottom is at the bottom of the screen. It will be completed (being red) when at "data-center-bottom" which is when the element's bottom is in the center of the screen (viewport).
+        </p>
+
+        <ul>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+            <li data-bottom-bottom="background-color:rgb(0,0,255);" data-center-bottom="background-color:rgb(255,0,0);">Foo bar</li>
+        </ul>
+
+        <h2>List items that change padding</h2>
+
+        <h3>Start: bottom of screen, end: after 100 pixels</h3>
+
+        <p>
+            Instead of color, one can use padding. We use this now to "slide in" an element.
+        </p>
+
+        <ul>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+            <li data-bottom-bottom="padding-left: 0px;" data--100-bottom-bottom="padding-left: 200px;">Slide me</li>
+        </ul>
+
+        <h3>Start: center of screen, end: after 100 pixels</h3>
+
+        <p>
+            Sometimes we don't want the effect to happen until the element is in the center of the screen. Here we start when the bottom of the element is at the center of the screen (viewport). And we stop after 100 pixels (that is -100 pixels + location of the center of the viewport). 
+        </p>
+
+        <ul>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+            <li data-center-bottom="padding-left: 0px;" data--100-center-bottom="padding-left: 200px;">Slide me</li>
+        </ul>
+
+        <h2>List items that fade in</h2>
+
+        <h3>Start: bottom of screen, end: after 100 pixels</h3>
+        
+        <p>
+            Fading in with opacity can be a nice thing as well.
+        </p>
+
+        <ul>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+            <li data-bottom-bottom="-webkit-opacity: 0.25;-moz-opacity: 0.25;opacity: 0.25;" data--100-bottom-bottom="-webkit-opacity: 1;-moz-opacity: 1;opacity: 1;">Slide me</li>
+        </ul>
+
+    </body>
+</html>
